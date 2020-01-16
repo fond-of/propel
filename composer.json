@@ -14,9 +14,17 @@
       "FondOf\\Propel\\": "src"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "FondOf\\Propel\\": "tests"
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "propel/propel": "^2.0@alpha"
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.0"
   }
 }
