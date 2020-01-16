@@ -18,11 +18,10 @@ class PgsqlPlatform extends PropelPgsqlPlatform
     public function getDropIndexDDL(Index $index)
     {
         if ($index instanceof Unique) {
-            $pattern = "DROP INDEX %s.%s;";
+            $pattern = "DROP INDEX %s;";
 
             return sprintf(
                 $pattern,
-                $this->quoteIdentifier($index->getTable()->getName()),
                 $this->quoteIdentifier($index->getName())
             );
         }
