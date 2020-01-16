@@ -10,8 +10,8 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "FondOf\\Propel\\": "src/"
+    "psr-4": {
+      "FondOf\\Propel\\": "src"
     }
   },
   "minimum-stability": "dev",
