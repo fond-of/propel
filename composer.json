@@ -1,0 +1,22 @@
+{
+  "name": "fond-of/propel",
+  "description": "Extend the propel PostgreSQL platform",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Egger",
+      "email": "christopher.egger@fondof.de"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "FondOf\\Propel\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "propel/propel": "^2.0@alpha"
+  }
+}
