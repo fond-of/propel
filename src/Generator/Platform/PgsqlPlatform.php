@@ -8,7 +8,7 @@ use Propel\Generator\Platform\PgsqlPlatform as PropelPgsqlPlatform;
 
 class PgsqlPlatform extends PropelPgsqlPlatform
 {
-    const DROP_INDEX_DDL_PATTERN = <<<EOT
+    protected const DROP_INDEX_DDL_PATTERN = <<<EOT
 
 DROP INDEX %s;
 
