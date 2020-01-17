@@ -22,6 +22,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
+    "php": ">7.1",
     "propel/propel": "^2.0@alpha"
   },
   "require-dev": {
