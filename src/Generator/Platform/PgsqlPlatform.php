@@ -24,10 +24,8 @@ EOT;
     public function getDropIndexDDL(Index $index): string
     {
         if ($index instanceof Unique) {
-            $pattern = static::DROP_INDEX_DDL_PATTERN;
-
             return sprintf(
-                $pattern,
+                static::DROP_INDEX_DDL_PATTERN,
                 $this->quoteIdentifier($index->getName())
             );
         }
