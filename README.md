@@ -7,5 +7,5 @@ Set the platformClass in the generator to `\FondOf\Propel\Generator\Platform\Pgs
 ## Fixes
 Elements which are fixed by this package
 
-- Drop of unique indices
-  - Before: `ALTER TABLE...`, After: `DROP INDEX...`
+- add unique indices by constraint
+  - Before: `CREATE UNIQUE INDEX...`, After: `ALTER TABLE...`
