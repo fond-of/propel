@@ -5,18 +5,22 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Chris Egger",
-      "email": "christopher.egger@fondof.de"
+      "name": "FOND OF DEV",
+      "email": "spryker@fondof.de"
+    },
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
     }
   ],
   "autoload": {
     "psr-4": {
-      "FondOf\\Propel\\": "src"
+      "FondOf\\Propel\\": "src/FondOf/Propel/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "FondOf\\Propel\\": "tests"
+      "FondOf\\Propel\\": "tests/FondOf/Propel"
     }
   },
   "minimum-stability": "dev",
